@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
@@ -13,5 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\problems">
+      <UniqueIdentifier>{a3a2d11f-92fc-45c2-b4eb-05ec38c59fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\problems\days">
+      <UniqueIdentifier>{ece3b382-c16d-42bb-8079-56c9367a02bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\problems">
+      <UniqueIdentifier>{37c595a4-2de6-45d4-a054-0f9cb5b6832c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\problems\days">
+      <UniqueIdentifier>{f14b6f5b-faca-4835-adab-6b01463ada37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\days\day_1.cpp">
+      <Filter>Source Files\problems\days</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="problems\common_includes.h">
+      <Filter>Header Files\problems</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\problem.h">
+      <Filter>Header Files\problems</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\problems.h">
+      <Filter>Header Files\problems</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\days\day_1.h">
+      <Filter>Header Files\problems\days</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

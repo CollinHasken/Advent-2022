@@ -4,5 +4,5 @@
 
 int main()
 {
-	PROBLEM_CLASSES_INSTANTIATE_AND_SOLVE(4, "problems/inputs/input_day_4.txt");
+	PROBLEM_CLASSES_INSTANTIATE_AND_SOLVE(5, "problems/inputs/input_day_5.txt");
 }

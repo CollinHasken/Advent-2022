@@ -146,6 +146,7 @@
 	<ClCompile Include="problems\days\day_4.cpp" />
 	<ClCompile Include="problems\days\day_5.cpp" />
 	<ClCompile Include="problems\days\day_6.cpp" />
+	<ClCompile Include="problems\days\day_7.cpp" />
 	</ItemGroup>
   <ItemGroup>
     <ClInclude Include="problems\common_includes.h" />
@@ -157,6 +158,7 @@
 	<ClInclude Include="problems\days\day_4.h" />
 	<ClInclude Include="problems\days\day_5.h" />
 	<ClInclude Include="problems\days\day_6.h" />
+	<ClInclude Include="problems\days\day_7.h" />
 	</ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

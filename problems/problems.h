@@ -6,5 +6,6 @@
 #include "days/day_4.h"
 #include "days/day_5.h"
 #include "days/day_6.h"
+#include "days/day_7.h"
 
 #include "problem.h"

@@ -51,6 +51,12 @@
 	<ClCompile Include="problems\days\day_7.cpp">
 		<Filter>Source Files\problems\days</Filter>
 	</ClCompile>
+	<ClCompile Include="problems\days\day_8.cpp">
+		<Filter>Source Files\problems\days</Filter>
+	</ClCompile>
+	<ClCompile Include="problems\days\day_9.cpp">
+		<Filter>Source Files\problems\days</Filter>
+	</ClCompile>
 	</ItemGroup>
   <ItemGroup>
     <ClInclude Include="problems\common_includes.h">
@@ -81,6 +87,12 @@
 		<Filter>Header Files\problems\days</Filter>
 	</ClInclude>
 	<ClInclude Include="problems\days\day_7.h">
+		<Filter>Header Files\problems\days</Filter>
+	</ClInclude>
+	<ClInclude Include="problems\days\day_8.h">
+		<Filter>Header Files\problems\days</Filter>
+	</ClInclude>
+	<ClInclude Include="problems\days\day_9.h">
 		<Filter>Header Files\problems\days</Filter>
 	</ClInclude>
 	</ItemGroup>
